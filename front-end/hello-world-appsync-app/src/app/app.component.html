@@ -1,25 +1,33 @@
-<mat-toolbar class="hwa-header">
+<mat-toolbar class="hwa-toolbar">
     <mat-toolbar-row>
-        <!--<button mat-icon-button>
-            <mat-icon>menu</mat-icon>
-        </button>-->
-        <h1>Home</h1>
+        <button mat-icon-button>
+            <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+        </button>
+        <h1> {{ app_name }} </h1>
         <span class="menu-spacer"></span>
         <div>
-            <!--<a mat-button [routerLink]="'/accounts'"> Accounts </a>-->
+            <!--[routerLink]="'/accounts'"-->
             <a mat-button>User Preferences</a>
             <a mat-button>Settings</a>
             <a mat-button>Language</a>
         </div>
     </mat-toolbar-row>
 </mat-toolbar>
-
-<div class="hwa-body">
-<a href="{{ source_code_link }}">Click here to view the source code</a>
-</div>
-
+<mat-sidenav-container>
+  <mat-sidenav #sidenav class="hwa-sidenav">
+    <mat-nav-list>
+      <!--[routerLink]="'/accounts'"-->
+      <a mat-list-item>Dashboard</a>
+      <a mat-list-item>Users</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="hwa-sidenav-content">
+      <!--<router-outlet></router-outlet>-->
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
 <footer class="hwa-footer">
-<div>
-    <span> © Sara Prager </span>
-</div>
+  <span class="hwa-footer-item"> © Sara Prager </span>
+  <a class="hwa-footer-item" href="{{ source_code_link }}">Click here to view the source code</a>
 </footer>

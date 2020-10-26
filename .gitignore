@@ -5,3 +5,4 @@ front-end/hello-world-appsync-app/dist/*
 
 # dependencies
 front-end/hello-world-appsync-app/node_modules/*
+.editorconfig
