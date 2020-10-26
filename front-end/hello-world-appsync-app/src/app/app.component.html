@@ -6,24 +6,19 @@
         <h1> {{ app_name }} </h1>
         <span class="menu-spacer"></span>
         <div>
-            <!--[routerLink]="'/accounts'"-->
-            <a mat-button>User Preferences</a>
-            <a mat-button>Settings</a>
-            <a mat-button>Language</a>
+          <a *ngFor="let link of header_links" mat-button [routerLink]="[link.url]"> {{ link.label }} </a>
         </div>
     </mat-toolbar-row>
 </mat-toolbar>
 <mat-sidenav-container>
   <mat-sidenav #sidenav class="hwa-sidenav">
     <mat-nav-list>
-      <!--[routerLink]="'/accounts'"-->
-      <a mat-list-item>Dashboard</a>
-      <a mat-list-item>Users</a>
+      <a *ngFor="let link of sidebar_links" mat-list-item [routerLink]="[link.url]"> {{ link.label }} </a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
     <div class="hwa-sidenav-content">
-      <!--<router-outlet></router-outlet>-->
+      <router-outlet></router-outlet>
     </div>
   </mat-sidenav-content>
 </mat-sidenav-container>
