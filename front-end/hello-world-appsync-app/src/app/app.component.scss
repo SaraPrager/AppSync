@@ -1,0 +1,33 @@
+.hwa-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:10vh;
+    background: teal
+}
+
+.hwa-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+}
+
+.hwa-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:10vh;
+    background: teal;
+}
+
+a {
+    margin: 2%;  
+}
+
+span {
+    color: white
+}

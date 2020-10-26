@@ -1,1 +1,25 @@
-<div> Hello World </div>
+<mat-toolbar class="hwa-header">
+    <mat-toolbar-row>
+        <!--<button mat-icon-button>
+            <mat-icon>menu</mat-icon>
+        </button>-->
+        <h1>Home</h1>
+        <span class="menu-spacer"></span>
+        <div>
+            <!--<a mat-button [routerLink]="'/accounts'"> Accounts </a>-->
+            <a mat-button>User Preferences</a>
+            <a mat-button>Settings</a>
+            <a mat-button>Language</a>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<div class="hwa-body">
+<a href="{{ source_code_link }}">Click here to view the source code</a>
+</div>
+
+<footer class="hwa-footer">
+<div>
+    <span> © Sara Prager </span>
+</div>
+</footer>
