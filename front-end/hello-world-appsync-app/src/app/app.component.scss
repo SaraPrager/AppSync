@@ -1,10 +1,14 @@
 .hwa-toolbar {
     height:10vh;
-    background:#0f273f;
+    background:#324657;
+}
+
+.hwa-spacer {
+    flex: 1 1 auto;
 }
 
 .hwa-sidenav {
-    background-color:#324657;
+    background-color: #0f273f;
 }
 
 .hwa-sidenav-content {
@@ -13,7 +17,7 @@
     justify-content: center;
     align-items: center;
     height:80vh;
-    background-color:#f2f2f2;
+    background-color:white;
 }
 
 .hwa-footer {
@@ -23,7 +27,7 @@
     flex-wrap: wrap;
     align-items: center;
     height:10vh;
-    background: #0f273f;
+    background: #324657;
 }
 
 .hwa-footer-item {

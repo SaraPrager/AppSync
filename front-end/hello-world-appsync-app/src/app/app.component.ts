@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   app_name: string = 'My App';
   source_code_link: string = 'https://github.com/SaraPrager/hello-world-appsync-app';
-  header_links: any = [
-    { label: 'Preferences', url: '/'},
-    { label: 'Settings', url: '/'},
-    { label: 'Language', url: '/'}
+  header_icons: string[] = [
+    'language',
+    'settings',
+    'login'
   ];
   sidebar_links: any = [
     { label: 'Dashboard', url: '/'},

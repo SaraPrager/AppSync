@@ -1,15 +1,14 @@
 <mat-toolbar class="hwa-toolbar">
-    <mat-toolbar-row>
-        <button mat-icon-button>
-            <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
-        </button>
-        <h1> {{ app_name }} </h1>
-        <span class="menu-spacer"></span>
-        <div>
-          <a *ngFor="let link of header_links" mat-button [routerLink]="[link.url]"> {{ link.label }} </a>
-        </div>
-    </mat-toolbar-row>
+  <button mat-icon-button>
+    <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+  </button>
+  <span> {{ app_name }} </span>
+  <span class="hwa-spacer"></span>
+  <button *ngFor="let icon of header_icons" mat-icon-button>
+    <mat-icon>{{ icon }}</mat-icon>
+  </button>
 </mat-toolbar>
+
 <mat-sidenav-container>
   <mat-sidenav #sidenav class="hwa-sidenav">
     <mat-nav-list>
