@@ -1,0 +1,16 @@
+@import '~@angular/material/theming';
+@import './app/app.component.scss';
+@include mat-core();
+
+// https://material.io/design/color/the-color-system.html
+$app-primary: mat-palette($mat-blue-grey, 600, 100, 500);
+$app-accent: mat-palette($mat-pink, 600, 200, 900);
+$app-warn: mat-palette($mat-red);
+$custom-app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
+
+@mixin custom-theme($theme) {
+    @include menu-theme($theme);
+}
+
+@include angular-material-theme($custom-app-theme);
+@include custom-theme($custom-app-theme);

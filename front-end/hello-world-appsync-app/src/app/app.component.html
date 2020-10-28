@@ -4,11 +4,10 @@
   </button>
   <span> {{ app_name }} </span>
   <span class="hwa-spacer"></span>
-  <button *ngFor="let icon of header_icons" mat-icon-button>
+  <button mat-icon-button *ngFor="let icon of header_icons">
     <mat-icon>{{ icon }}</mat-icon>
   </button>
 </mat-toolbar>
-
 <mat-sidenav-container>
   <mat-sidenav #sidenav class="hwa-sidenav">
     <mat-nav-list>
@@ -22,6 +21,6 @@
   </mat-sidenav-content>
 </mat-sidenav-container>
 <footer class="hwa-footer">
-  <span class="hwa-footer-item"> © Sara Prager </span>
-  <a class="hwa-footer-item" href="{{ source_code_link }}">Click here to view the source code</a>
+  <span> © Sara Prager </span>
+  <a href="{{ source_code_link }}">Click here to view the source code</a>
 </footer>

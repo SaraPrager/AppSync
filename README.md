@@ -11,3 +11,7 @@ a basic serverless app using Angular, AppSync, Amplify
 [Karma](https://karma-runner.github.io)
 
 [Protractor](http://www.protractortest.org/)
+
+[Amplify](https://aws.amazon.com/amplify/)
+
+[AppSync](https://aws.amazon.com/appsync/)
