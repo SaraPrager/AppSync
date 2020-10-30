@@ -6,3 +6,11 @@ front-end/hello-world-appsync-app/dist/*
 # dependencies
 front-end/hello-world-appsync-app/node_modules/*
 .editorconfig
+
+# amplify
+front-end/hello-world-appsync-app/amplify/\#current-cloud-backend
+front-end/hello-world-appsync-app/amplify/.config/local-*
+front-end/hello-world-appsync-app/amplify/backend/amplify-meta.json
+front-end/hello-world-appsync-app/amplify/backend/awscloudformation
+front-end/hello-world-appsync-app/amplify/backend/api/HelloWorldAPI/build/
+front-end/hello-world-appsync-app/src/aws-exports.ts

@@ -1,3 +1,33 @@
-.hwa-p {
-    color: black;
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+.hwa-table {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.hwa-table-cell {
+    text-align: left;
+    padding: 0% 0% 0% 5%;
+}
+
+.hwa-header {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.hwa-actions-header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.hwa-button {
+    margin-top: 2%;
+    margin-right: 2%;
 }
