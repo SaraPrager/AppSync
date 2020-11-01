@@ -7,7 +7,7 @@
     "config": {
       "SourceDir": "src",
       "DistributionDir": "dist/hello-world-appsync-app",
-      "BuildCommand": "npm.cmd run-script build",
+      "BuildCommand": "ng build --prod",
       "StartCommand": "ng serve"
     }
   },
