@@ -46,7 +46,7 @@ export class UsersComponent implements OnInit {
 
     this.api.OnCreateUserListener.subscribe( (event: any) => {
       const new_user = event.value.data.onCreateUser;
-      this.users = [new_user, ...this.users];
+      this.users = [...this.users, new_user];
       this.data_source.data = this.users;
     });
 
