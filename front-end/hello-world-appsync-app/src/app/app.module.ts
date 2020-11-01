@@ -18,12 +18,14 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatDialogModule } from '@angular/material/dialog';
 import { UsersComponent } from './users/users.component';
 import { UserDialogComponent } from './users/user-dialog/user-dialog.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
-    UserDialogComponent
+    UserDialogComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
