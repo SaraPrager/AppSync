@@ -1,15 +1,20 @@
 {
-  "dev": {
+  "test": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-helloworldappsyncapp-dev-102928-authRole",
-      "UnauthRoleArn": "arn:aws:iam::796473008509:role/amplify-helloworldappsyncapp-dev-102928-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::796473008509:role/amplify-helloworldappsyncapp-dev-102928-authRole",
+      "AuthRoleName": "amplify-helloworldappsyncapp-test-124434-authRole",
+      "UnauthRoleArn": "arn:aws:iam::796473008509:role/amplify-helloworldappsyncapp-test-124434-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::796473008509:role/amplify-helloworldappsyncapp-test-124434-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-helloworldappsyncapp-dev-102928-deployment",
-      "UnauthRoleName": "amplify-helloworldappsyncapp-dev-102928-unauthRole",
-      "StackName": "amplify-helloworldappsyncapp-dev-102928",
-      "StackId": "arn:aws:cloudformation:us-east-1:796473008509:stack/amplify-helloworldappsyncapp-dev-102928/b4ba0250-18f7-11eb-b747-0a8267cebc39",
-      "AmplifyAppId": "d34k91ac8q4a52"
+      "DeploymentBucketName": "amplify-helloworldappsyncapp-test-124434-deployment",
+      "UnauthRoleName": "amplify-helloworldappsyncapp-test-124434-unauthRole",
+      "StackName": "amplify-helloworldappsyncapp-test-124434",
+      "StackId": "arn:aws:cloudformation:us-east-1:796473008509:stack/amplify-helloworldappsyncapp-test-124434/4b246890-1c2f-11eb-abc2-0ad4194c8c9d",
+      "AmplifyAppId": "d3khk909qvqb97"
+    },
+    "categories": {
+      "auth": {
+        "helloworldappsyncapp41f2c06a": {}
+      }
     }
   }
 }

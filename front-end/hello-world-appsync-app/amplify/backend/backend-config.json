@@ -16,5 +16,13 @@
         }
       }
     }
+  },
+  "auth": {
+    "helloworldappsyncapp41f2c06a": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
   }
 }
