@@ -15,3 +15,5 @@ a basic serverless app using Angular, AppSync, Amplify
 [Amplify](https://aws.amazon.com/amplify/)
 
 [AppSync](https://aws.amazon.com/appsync/)
+
+[Cognito](https://aws.amazon.com/cognito/)
