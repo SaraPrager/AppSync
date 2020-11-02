@@ -4,8 +4,8 @@
   </button>
   <span> {{ app_name }} </span>
   <span class="hwa-spacer"></span>
-  <button mat-icon-button *ngFor="let icon of header_icons">
-    <mat-icon>{{ icon }}</mat-icon>
+  <button mat-icon-button *ngFor="let icon of header_icons" [routerLink]="[icon.url]">
+    <mat-icon>{{ icon.name }}</mat-icon>
   </button>
 </mat-toolbar>
 <mat-sidenav-container>

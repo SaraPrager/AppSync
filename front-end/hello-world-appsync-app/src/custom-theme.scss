@@ -8,6 +8,13 @@ $app-accent: mat-palette($mat-pink, 600, 200, 900);
 $app-warn: mat-palette($mat-red);
 $custom-app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 
+// ->-> TODO: move to parameters
+:root {
+    --amplify-primary-color: #607d8b;
+    --amplify-primary-tint: #607d8b;
+    --amplify-primary-shade: #607d8b;
+}
+
 @mixin custom-theme($theme) {
     @include menu-theme($theme);
 }
