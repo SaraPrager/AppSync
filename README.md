@@ -1,6 +1,6 @@
 # Hello World AppSync App
 
-a basic serverless app using Angular, AppSync, Amplify
+a basic serverless app using Angular, AppSync, Cognito, Amplify
 
 ## Tools
 
